@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/easynow-me/EasyNow.xUnit.Autofac</RepositoryUrl>
+    <Authors>sxi3265</Authors>
+    <Company>easynow.me</Company>
+    <Copyright></Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="xunit.extensibility.execution" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
